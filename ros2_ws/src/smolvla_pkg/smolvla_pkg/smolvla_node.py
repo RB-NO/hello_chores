@@ -1,0 +1,1 @@
+# Receives joint angles from ros_client.py, checks safety range, sends Action Goal to feetech_driver_node

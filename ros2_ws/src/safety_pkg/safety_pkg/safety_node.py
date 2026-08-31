@@ -1,0 +1,1 @@
+# Monitors STOP intent at all times, bypasses smolvla_node, sends Action Cancel directly to feetech_driver_node
