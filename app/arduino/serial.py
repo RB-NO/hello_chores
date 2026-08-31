@@ -1,0 +1,1 @@
+# Handles Arduino serial communication

@@ -1,0 +1,1 @@
+# Receives Action Goal from smolvla_node, controls SO-ARM101 motors via Feetech SDK, publishes /joint_states

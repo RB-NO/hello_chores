@@ -1,0 +1,1 @@
+# # Loads SmolVLA model, takes dual camera + language input, outputs joint angles
