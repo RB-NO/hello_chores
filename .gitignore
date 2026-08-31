@@ -1,0 +1,13 @@
+# ROS2 빌드 결과물
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+
+# 런타임 생성 폴더
+outputs/
