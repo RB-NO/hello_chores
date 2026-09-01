@@ -45,7 +45,7 @@ done
 # ================================
 if [[ -z "$TASK" ]]; then
     echo "ERROR: --task argument needed"
-    echo "usage: bash record.sh --task [cup|meds|btn]"
+    echo "usage: bash record.sh --task [water|meds|btn]"
     exit 1
 fi
 
@@ -53,9 +53,9 @@ fi
 # Task configuration
 # ======================
 case "$TASK" in
-    cup)
-        SINGLE_TASK="pick and place paper cup"
-        DATASET_REPO="$HF_ID/pnp_cup"
+    water)
+        SINGLE_TASK="pick and place water bottle"
+        DATASET_REPO="$HF_ID/pnp_water"
         ;;
     meds)
         SINGLE_TASK="pick and place medicine bottle"
@@ -67,7 +67,7 @@ case "$TASK" in
         NUM_EPISODES=30
         ;;
     *)
-        echo "Unknown task: $TASK. Choose from cup / meds / btn"
+        echo "Unknown task: $TASK. Choose from water / meds / btn"
         exit 1
         ;;
 esac
